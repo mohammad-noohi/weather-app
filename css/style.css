@@ -1,0 +1,116 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* ------------------------ weather app style ---------------------------- */
+.app-section{
+  background-image: url(../images/landscape-clouds-falling-stars-blue-sky-scenery-green-grass-3840x1080-6352.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-wrapper{
+  background-color: #ffffff61;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  border-radius: 2rem 0 2rem 0;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.search-reslut{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-inp{
+  font-size: 1.8rem;
+  border: none;
+  outline: 0;
+  padding: 1.4rem 4rem 1.4rem 1.4rem;
+  border-radius: 2rem 0 2rem 0;
+  -webkit-box-shadow: 0 0.4rem 0 rgba(0, 0, 0, 0.122);
+          box-shadow: 0 0.4rem 0 rgba(0, 0, 0, 0.122);
+  margin-bottom: 4rem;
+}
+
+.city-name{
+  margin-bottom: 0.8rem;
+}
+
+.date-txt{
+  text-transform: capitalize;
+}
+
+.degree-title{
+  font-size: 12rem;
+  text-shadow: 0.4rem 0.4rem  #fff;
+  margin: 3rem 0;
+}
+
+.weather-status{
+  font-size: 3rem;
+  font-weight:800;
+}
+
+.temp{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
